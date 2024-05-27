@@ -5,7 +5,6 @@ class PositionalEncoder(nn.Module):
 
     def __init__(self, d_model: int, context_len = 4096, p_dropout: float = 0.05):
         """
-
         Args:
           d_model: embedding dimension
           context_len: maximum length of sequence
